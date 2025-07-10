@@ -1,0 +1,167 @@
+body, html {
+font-family: Space Grotesk;
+height: 100%;
+margin: auto;
+}
+
+.bg {
+ 
+ background-image: linear-gradient(180deg, red, blue);
+ width: 100%;
+ min-height: 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+
+}
+
+.title {
+  border-style: solid;
+  margin: auto;
+  padding: 50px;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: yellow;
+  text-align: center;
+}
+
+form {
+  padding: 50px;
+  margin: auto;
+  border-style: solid;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: yellow;
+}
+
+
+label {
+  font-size: 35px;
+  
+}
+
+.name, .email, .age, .dropdown {
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  min-height: 4em;
+  height: 50px;
+  background-color: black;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 4em;
+  width: 100%;
+  padding-top: 5px;
+  line-height: 10px; 
+  padding-left: 10px;
+}
+
+textarea.textarea {
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  height: 50px;
+  background-color: black;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 4em;
+  width: 100%;
+  padding-top: 15px;
+  line-height: 10px; 
+  padding-left: 10px;
+}
+
+::placeholder{
+  color: white;
+  opacity: 75%;
+  font-size: 15px;
+  
+}
+
+#name-label, #email-label, #number-label {
+  display: block;
+ 
+  
+}
+
+
+label.option {
+  
+  font-size: 30px;
+}
+
+p.recommend {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+
+label.recommend {
+  font-size: 25px;
+  display: block;
+
+}
+
+input[type="radio"] {
+  
+  color: black;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border: 1px solid black;
+  border-radius: 50%;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: black;
+}
+
+p.features {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  
+  accent-color: black;
+  width: 15px;
+  height: 15px;
+  outline: none;
+  background-color: white;
+}
+
+
+label.features {
+  font-size: 19px;
+  display: block;
+}
+
+div.submit {
+  box-sizing: border-box;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  font-family: Space Grotesk;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+#submit:hover{ 
+ cursor: pointer;
+ background:#ffffff;
+ color:black;
+ box-shadow: 0px 5px 10px grey;
+}
